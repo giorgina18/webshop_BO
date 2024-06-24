@@ -1,8 +1,13 @@
- <!-- contact-section -->
+<?php
+$rootDir = dirname(__DIR__, 1);  // Move up one directory level
+require_once($rootDir . '/functions.php');
+
+?>
+<!-- contact-section -->
  <section class="contact">
         <div class="contact-info">
             <div class="first-info">
-                <img src="image/logo.png" alt="">
+                <img src="../image/logo.png" alt="">
 
                 <p>3245 Grant Street Longview, <br> TX Noord-Holland 765378</p>
                 <p>phone number: 01601348732</p>
@@ -57,7 +62,7 @@
         <p>Copyright @2024. All Rights Reserved. Designd By Giorgina Cali</p>
     </div>
 
-    <script src="/js/main.js" defer></script>
+    <script src="<?= getRootUrl(); ?>js/main.js" defer></script>
 </body>
 
 </html>

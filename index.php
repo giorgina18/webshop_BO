@@ -1,7 +1,5 @@
 <?php 
-
-require_once '/template-parts/header.php';
-
+require_once 'template-parts/header.php';
 ?>
     <!-- homepage -->
     <section class="main-home">
@@ -25,8 +23,8 @@ require_once '/template-parts/header.php';
         </div>
 
         <div class="products">
-            <div class="row">
-                <img src="image/1.jpg" alt="">
+            <div class="row product-item" data-title="HALF RUNNING SET">
+                <img src="./image/1.jpg" alt="">
                 <div class="product-text">
                     <h5>Sale</h5>
                 </div>
@@ -42,13 +40,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Half Running Set</h4>
+                    <h4 >Half Running Set</h4>
                     <p>$39,99 - $49,99</p>
-                    <a href="/products/half-running-set.html">Bekijk Product</a>
+                    <a href="products/half-running-set.php">Bekijk Product</a>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="FORMAL MEN LOWERS">
                 <img src="image/2.jpg" alt="">
                 <div class="product-text">
                     <h5>New</h5>
@@ -65,13 +63,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Formal Men Lowers</h4>
+                    <h4 >Formal Men Lowers</h4>
                     <p>$21,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="HALF RUNNING SUIT">
                 <img src="image/3.jpg" alt="">
 
                 <div class="heart-icon">
@@ -86,13 +84,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Half Running Suit</h4>
+                    <h4 >Half Running Suit</h4>
                     <p>$14,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="HALF FANCY LADY DRESS">
                 <img src="image/4.jpg" alt="">
                 <div class="product-text">
                     <h5>Hot</h5>
@@ -109,13 +107,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Half Fancy Lady Dress</h4>
+                    <h4 >Half Fancy Lady Dress</h4>
                     <p>$39,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="FLIX FLOX JEANS">
                 <img src="image/5.jpg" alt="">
 
                 <div class="heart-icon">
@@ -130,13 +128,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Flix Flox Jeans</h4>
+                    <h4 >Flix Flox Jeans</h4>
                     <p>$24,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="FANCY SALWAR SUITS">
                 <img src="image/6.jpg" alt="">
                 <div class="product-text">
                     <h5>Hot</h5>
@@ -153,13 +151,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Fancy Salwar Suits</h4>
+                    <h4 >Fancy Salwar Suits</h4>
                     <p>$34,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="PRINTED STRAIGHT KURTA">
                 <img src="image/7.jpg" alt="">
                 <div class="product-text">
                     <h5>Sale</h5>
@@ -176,13 +174,13 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Printed Straight Kurta</h4>
+                    <h4 >Printed Straight Kurta</h4>
                     <p>$29,99 - $39,99</p>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row product-item" data-title="COLLOT FULL DRESS">
                 <img src="image/8.jpg" alt="">
                 <div class="product-text">
                     <h5>Sale</h5>
@@ -199,7 +197,7 @@ require_once '/template-parts/header.php';
                 </div>
 
                 <div class="price">
-                    <h4>Collot Full Dress</h4>
+                    <h4 >Collot Full Dress</h4>
                     <p>$49,99 </p>
                 </div>
             </div>
@@ -275,6 +273,6 @@ require_once '/template-parts/header.php';
 
 <?php 
 
-require_once '/template-parts/footer.php';
+require_once 'template-parts/footer.php';
 
 ?>
