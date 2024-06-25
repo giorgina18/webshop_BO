@@ -38,7 +38,7 @@ require_once '../template-parts/header.php';
 
         </div>
         <article class="modal a-popup hidden" id="js--shoppingModal">
-            &#10003;Added to Cart
+           &#10003;Added to Cart
         </article>
 
 

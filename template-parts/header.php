@@ -25,7 +25,7 @@ require_once($rootDir . '/functions.php');
 
     <!-- navbar -->
     <header>
-        <a href="#" class="logo"><img src="../image/logo.png" alt=""></a>
+        <a href="#" class="logo"><img src="image/logo.png" alt=""><img src="../image/logo.png" alt=""></a>
         <ul class="navmenu">
             <li><a href="#">HomeShop</a></li>
             <li><a href="#">Shop</a></li>
@@ -37,21 +37,11 @@ require_once($rootDir . '/functions.php');
         <div class="nav-icon">
 
             <!-- searchbar -->
-            <a href="#"><i class='bx bx-search'></i></a>
-
-            <!-- user -->
-
-            <a href="#"><i class='bx bx-user'></i></a>
-
-            <!-- shopping cart -->
-            <a href="#"><i class='bx bx-cart'></i></a>
-
-            <!-- search bar  -->
+            <!-- <a href="#"><i class='bx bx-search'></i></a> -->
             <div class="searchbar">
                 <input id="js--searchBar" type="text" placeholder="Search for a product here..." class="searchBar__input">
                 <i class="  fa-solid fa-magnifying-glass searchBar__glass "></i>
             </div>
-
 
             <!-- shopping cart button -->
             <button id="js--checkoutButton" class="shoppingCart">
@@ -60,8 +50,17 @@ require_once($rootDir . '/functions.php');
                 </span>
                 <div class="shoppingCart__message"><small>0</small></div>
             </button>
+            
+            <!-- user -->
+            <a href="#"><i class='bx bx-user'></i></a>
 
             <!-- menu icon -->
             <div class="bx bx-menu" id="menu-icon"></div>
+
+            <!-- shopping cart -->
+            <!-- <a href="#"><i class='bx bx-cart'></i></a> -->
+
+            <!-- search bar  -->
+
         </div>
     </header>

@@ -7,7 +7,7 @@ require_once($rootDir . '/functions.php');
  <section class="contact">
         <div class="contact-info">
             <div class="first-info">
-                <img src="../image/logo.png" alt="">
+                <img src="image/logo.png" alt=""> <img src="../image/logo.png" alt="">
 
                 <p>3245 Grant Street Longview, <br> TX Noord-Holland 765378</p>
                 <p>phone number: 01601348732</p>
