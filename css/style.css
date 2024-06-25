@@ -468,10 +468,10 @@ main.hidden~button .checkoutButton__tobasket {
     width: 100%;
     display: grid;
     grid-template-rows: repeat(3, 20rem);
-} */
+}
 
 
-/* .checkout__listItem {
+.checkout__listItem {
     list-style: none;
     grid-row: span 1;
     border-bottom: 0.3rem solid rgba(0, 0, 0, 0.3);
@@ -494,31 +494,30 @@ main.hidden~button .checkoutButton__tobasket {
     background: var(--gradient);
 
 }
- */
 
 
 
-/* add to cart*/
+
+/* shopping cart */
 
 .modal {
-    width: 20rem;
-    height: 20rem;
+    width: 50rem;
+    height: 30rem;
     position: fixed;
-    top: 30%;
-    left: 40%;
-    text-align: center;
+    top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F6F6F6;
     box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.6);
-    color: red;
-    font-size: 200%;
+    color: green;
+    font-size: 130%;
     font-weight: 400;
     border-radius: 0.5rem;
-} 
+}
 
-/*  shopping cart icon  */
+
+/*  shopping cart icon / left arrow  */
 .shoppingCart {
     border: none;
     width: fit-content;

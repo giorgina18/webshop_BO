@@ -62,5 +62,8 @@ require_once($rootDir . '/functions.php');
 
             <!-- search bar  -->
 
+
+            <!-- menu icon -->
+            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
